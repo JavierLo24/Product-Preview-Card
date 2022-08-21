@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+@media screen and (max-width: 1440px) {
+  .product-preview-card {
+    width: 100%;
+  }
+}
+
+
 body {
   text-align: center;
   background-color: hsl(30, 38%, 92%);

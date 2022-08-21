@@ -1,12 +1,11 @@
 * {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 body {
   text-align: center;
   background-color: hsl(30, 38%, 92%);
 }
-
 .card {
   position: relative;
   margin: 10rem auto;
@@ -14,18 +13,19 @@ body {
   border-radius: 0.7rem;
   background-color: hsl(0, 0%, 100%);
 }
-
 .img {
+  -webkit-box-align: left;
+  -ms-flex-align: left;
   align-items: left;
 }
-
 .fragance {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 50%;
   border-top-left-radius: 0.7rem;
   border-bottom-left-radius: 0.7rem;
 }
-
 .text {
   position: absolute;
   padding-left: 55%;
@@ -33,7 +33,6 @@ body {
   top: 1.6rem;
   text-align: left;
 }
-
 .perfume {
   margin-top: 0.5rem;
   font-family: "Montserrat", sans-serif;
@@ -42,13 +41,11 @@ body {
   font-size: 0.8rem;
   color: hsl(228, 12%, 48%);
 }
-
 .title {
   font-family: "Fraunces", serif;
   line-height: 2rem;
   font-weight: 700;
 }
-
 .description {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -56,7 +53,6 @@ body {
   line-height: 1.55rem;
   color: hsl(228, 12%, 48%);
 }
-
 .discount {
   margin: 1.4rem 0;
   font-family: "Fraunces", serif;
@@ -64,7 +60,6 @@ body {
   font-weight: 700;
   color: rgb(46, 124, 59);
 }
-
 .price {
   position: absolute;
   bottom: 4.5rem;
@@ -75,11 +70,13 @@ body {
   font-size: 0.8rem;
   color: hsl(228, 12%, 48%);
 }
-
 .boton {
   width: 103%;
   padding: 0.8rem 3.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -89,7 +86,6 @@ body {
   border-color: transparent;
   cursor: pointer;
 }
-
 .boton:hover {
   background-color: rgb(27, 70, 34);
 }

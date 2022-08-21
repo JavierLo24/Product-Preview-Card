@@ -92,13 +92,13 @@ body {
   background-color: rgb(27, 70, 34);
 }
 
-.text-car {
+.textB {
   position: absolute;
-  bottom: 0.25rem;
+  bottom: 1.05rem;
   right: 6.25rem;
-}
+} 
 
 .icon {
   position: relative;
   left: -2.8rem;
-}
+} 

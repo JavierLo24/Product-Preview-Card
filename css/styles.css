@@ -2,13 +2,6 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1440px) {
-  .product-preview-card {
-    width: 100%;
-  }
-}
-
-
 body {
   text-align: center;
   background-color: hsl(30, 38%, 92%);
@@ -99,4 +92,41 @@ body {
 
 .boton:hover {
   background-color: rgb(27, 70, 34);
+}
+
+@media screen and (max-width: 450px) {
+  .card {
+    width: 100%;
+  }
+  .perfume {
+    margin-top: auto;
+    font-size: 8px;
+  }
+  .title {
+    margin-top: auto;
+    font-size: 21px;
+    line-height: 23px;
+  }
+  .description {
+    margin-top: auto;
+    font-size: 8.6px;
+    line-height: 15px;
+  }
+  .discount {
+    margin-top: auto;
+    font-size: 22px;
+  }
+  .price {
+    bottom: 58px; 
+    font-size: 9px;
+    right: 50px;
+  }
+  .boton{
+    padding: 0.6rem 2rem;
+    font-size: 9px;
+    width: 110%;
+  }
+  .icon{
+    width: 10px;
+  }
 }
